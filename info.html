@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title> Лабораторная работа №7 </title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#photo">Фотографии</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cards">Карточки</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bio">Биография</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="films.html">Фильмы</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <div id="photo" class="carousel-inner">
+        <div>
+          <div class="carousel-item active">
+            <img src="1.webp" class="d-block actor">
+          </div>
+          <div class="carousel-item">
+            <img src="2.webp" class="d-block actor">
+          </div>
+          <div class="carousel-item">
+            <img src="3.webp" class="d-block actor">
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div id="cards" class="for-card">
+    <div class="block">
+      <div class="card" style="width: 400px">
+        <img class="card-img-top" src="f1.webp">
+        <div class="card-body">
+          <h4 class="card-title">Валериан и город тысячи планет</h4>
+          <p class="card-text">
+            2700 год. Валериан и Лорелин - космические спецагенты,
+            которые по долго службы впутались в подозрительно дело
+            и стали невольными участниками то ли межгалактического
+            заговора, то ли аферы причудливых поселенцев планеты
+            Альфа, прибывших туда из различных миров со всех уголков
+            галктик.
+          </p>
+          <br>
+          <a href="https://www.kinopoisk.ru/film/689960/" class="btn btn-primary">Посмотреть</a>
+        </div>
+      </div>
+    </div>
+    <div class="block">
+      <div class="card" style="width: 400px">
+        <img class="card-img-top" src="f2.webp">
+        <div class="card-body">
+          <h4 class="card-title">Отряд самоубийц</h4>
+          <p class="card-text">
+            Фильм из вселенной DC Comics о команде суперзлодеев, 
+            которых отправляют на опасную правительственную задачу. 
+            Правительство собирает специальную команду из 
+            суперзлодеев, которые заключены в специальные 
+            камеры, для выполнения невероятно тяжёлой и опасной 
+            миссии. Удастся ли уникальным антигероям спасти человечество от уничтожения?
+          </p>
+          <a href="https://www.kinopoisk.ru/film/468522/" class="btn btn-primary">Посмотреть</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="bio" class="for-info">
+    <div id="demo1">
+        Кара Джоселин Делевинь — британская супермодель и актриса. 
+        Родилась 12 августа 1992 года в Лондоне (Великобритания).
+        Образование: окончила частную школу Bedales.
+        Карьера модели: начала в 2009 году, в 2012 году 
+        стала лицом косметического бренда Burberry Beauty. 
+        Работала с такими известными мировыми компаниями, 
+        как H&M, Blumarine, Zara. Дебют в кино: в 2012 году 
+        Кара Делевинь дебютировала в кино, сыграв княжну 
+        Сорокину в британско-французской картине режиссёра 
+        Джо Райта «Анна Каренина». В 2017 году Кара выпустила 
+        собственную книгу, в которой рассказала о своём пути 
+        к успеху в модельном бизнесе.
+    </div>
+</div>
+
+</body>
+
+</html>
